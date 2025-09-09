@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color:rgb(0, 0, 0);
+    text-align: start;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card {  
+    background-color: green; 
+    flex: 1 1 calc(25%-20%);
+    padding:20px;
+    text-align: center;
+}
+    
+

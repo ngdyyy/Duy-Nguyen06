@@ -1,0 +1,60 @@
+#info {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.duy {
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#sdt {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+footer {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.square {
+    flex-basis: auto;
+    flex-direction: row;
+    
+
+}
+.square1 {
+    width: 100px;
+    height: 100px;
+    border: 1px none;background: red;
+    margin: 10px;
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    border: 1px none;background: rgb(0, 255, 166);
+    margin: 10px;
+}
+
+
+.square3 {
+    width: 100px;
+    height: 100px;
+    border: 1px none;background: rgb(255, 255, 0);
+    margin: 10px;
+}
+
