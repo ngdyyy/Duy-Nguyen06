@@ -1,0 +1,52 @@
+
+.home {
+    border: 10px solid gray;
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+.galery {
+    gap: 10px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.world {
+    text-align: start;
+    color: white;
+}
+
+.sidebar {
+    border:10px solid gray(0, 0, 0);    
+    flex-direction: row;
+    align-items: center;
+    background-color: gray;
+    width: 100px;
+    height: 1000px;
+    padding: 10px;
+    margin: 0;
+    
+}
+  
+
+
+.menu{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+
+.login {
+    color:red;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+}
+
+
