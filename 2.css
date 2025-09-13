@@ -1,0 +1,23 @@
+
+.register-form {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.register-form input, .register-form button, .register-form textarea {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width:800px;
+}
+
+.register-form button:hover {
+    background: red;
+}
+
