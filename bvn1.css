@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+th {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+tr:hover {
+    background: lightblue;
+}
+
+@media (max-width:1000, min-width:768px) {
+    table {
+        max-width: fit-content;
+    }
+}
+
+@media (max-width:768px) {
+    table {
+        grid-template-columns: 1fr;
+    }
+}
